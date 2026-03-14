@@ -1,0 +1,128 @@
+body{
+
+margin:0;
+background:#120800;
+font-family:sans-serif;
+color:white;
+
+}
+
+/* หัวข้อ */
+
+.title{
+
+text-align:center;
+margin-top:20px;
+
+}
+
+/* layout หลัก */
+
+.container{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:60px;
+
+}
+
+/* ปุ่มกลับ */
+
+.back{
+
+position:absolute;
+top:20px;
+left:30px;
+
+background:#2b7cff;
+border:none;
+
+padding:12px 30px;
+
+color:white;
+
+border-radius:8px;
+cursor:pointer;
+
+}
+
+/* กล่องข้อมูล */
+
+.infoBox{
+
+border:2px solid white;
+border-radius:10px;
+padding:30px;
+width:600px;
+line-height:1.8;
+
+}
+
+/* กล่องไอคอน */
+
+.iconBox{
+
+display:flex;
+flex-direction:column;
+gap:35px;
+
+}
+
+/* ไอคอน */
+
+.icon{
+
+width:120px;
+height:120px;
+
+object-fit:contain;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+/* เอฟเฟกต์ */
+
+.icon:hover{
+
+transform:scale(1.1);
+
+}
+
+/* ด้านขวา */
+
+.right{
+
+text-align:center;
+
+}
+
+/* รูปโปรไฟล์ */
+
+.plor{
+
+width:180px;
+height:180px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+border:3px solid #8a6a45;
+
+margin-bottom:20px;
+
+}
+
+/* ข้อมูล body */
+
+.bodyInfo{
+
+margin-top:10px;
+line-height:2;
+
+}
+
